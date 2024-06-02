@@ -178,7 +178,9 @@ This singleton class manages user authentication and login functionalities. It e
 
 </details>
   </summary>
+  
   ### TEAM 
+  
   [Ana - Maria Cimpeanu](https://github.com/anacimpeanu)
   
   [Nicoleta Carmen Iova](https://github.com/nicoletaiova25)
