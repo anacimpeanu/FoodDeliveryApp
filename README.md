@@ -123,16 +123,7 @@ This team of three hardworking girls has successfully developed an innovative fo
     minimum order requirements, and special offers.
  <summary> 
      <h3> Classes 🌮 </h3>
-  </summary>
-<b>Beverage:</b> Represents beverages available in the food delivery system.
 
-<b>Candy</b>: Represents candy items that can be ordered.
-
-<b>Food</b>: Represents generic food items that are available for order.
-
-<b>Product</b>: Represents individual products that can be ordered, which may include beverages, candy, or other types of food items.
-
-  
    <summary> 
      <h3> Menu 🌮 </h3>
   </summary>
@@ -163,6 +154,14 @@ This singleton class handles the writing of data to CSV files. It ensures that o
 <b>Login</b>
 This singleton class manages user authentication and login functionalities. It ensures that only one instance is responsible for handling user login operations, maintaining consistency and security.
 
+<b>Package</b>: Food
+<b>Beverage:</b> Represents beverages available in the food delivery system.
+
+<b>Candy</b>: Represents candy items that can be ordered.
+
+<b>Food</b>: Represents generic food items that are available for order.
+
+<b>Product</b>: Represents individual products that can be ordered, which may include beverages, candy, or other types of food items.
 <b>Package</b>: Shop
 
       CaffeShop: Represents a café or coffee shop.
@@ -178,7 +177,7 @@ This singleton class manages user authentication and login functionalities. It e
       User: Represents a generic user entity within the system.
 
 </details>
-
+  </summary>
   ### TEAM 
   [Ana - Maria Cimpeanu](https://github.com/anacimpeanu)
   
