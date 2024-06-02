@@ -53,15 +53,7 @@ This team of three hardworking girls has successfully developed an innovative fo
         🍿 Create an auditing service logging actions to a CSV file.
         🍿 Log format: name_of_action,timestamp.
 </details>
-  <details>
-  <summary> 
-     <h3>Components 🥥 </h3>
-  </summary>
-  
-  ### Components 
 
-  </details>
-  
   <details>
   <summary> 
      <h3> Food Delivery Application Features 🍤 </h3>
