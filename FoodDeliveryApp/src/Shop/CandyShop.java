@@ -64,7 +64,7 @@ public class CandyShop extends Shop {
         output += "Owner: " + this.owner + "\n";
         output += "The list of delivery guys: \n";
 
-        for(DeliveryGuy deliveryGuy : this.deliveryGuys){
+        for(DeliveryGuy deliveryGuy : deliveryGuys){
             output += deliveryGuy + "\n";
         }
 
@@ -85,7 +85,7 @@ public class CandyShop extends Shop {
 
     @Override
     public List<Produs> getProduses(){
-        List<Produs> lista = null;
+        List<Produs> lista = new ArrayList<Produs>();
 
         for(Candy it: candyList){
             lista.add(it);

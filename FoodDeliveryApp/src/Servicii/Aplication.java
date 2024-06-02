@@ -61,6 +61,7 @@ public class Aplication { //singleton
                 servicii.listOneShop();
             } else if (choice == 7) {
                 servicii.logOff();
+                break;
             }
 
 
@@ -91,6 +92,8 @@ public class Aplication { //singleton
                 servicii.rateShop();
             } else if (choice == 6) {
                 servicii.logOff();
+                //break;
+                servicii.logIn();
             }
 
             System.out.print("\nDo you want to select another action? (yes/no): ");

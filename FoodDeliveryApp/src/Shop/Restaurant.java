@@ -105,7 +105,7 @@ public class Restaurant extends Shop{
 
     @Override
     public List<Menu> getMenus(){
-        List<Menu> lista = null;
+        List<Menu> lista = new ArrayList<Menu>();
         for (RMenu it: rMenus){
             lista.add(it);
         }

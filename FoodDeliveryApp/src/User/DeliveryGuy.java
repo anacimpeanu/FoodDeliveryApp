@@ -26,7 +26,7 @@ public class DeliveryGuy extends Owner {
         String phoneNumber;
 
         while(true) {
-            System.out.print("Enter the phone number of the owner: ");
+            System.out.print("Enter the phone number of the delivery Guy: ");
             phoneNumber = sc.nextLine();
             boolean ok = phoneNumber.matches("0[0-9]{9}");
             if (ok) {

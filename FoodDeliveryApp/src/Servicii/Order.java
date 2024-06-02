@@ -134,7 +134,7 @@ public class Order {
             System.out.print(">>The products available are: ");
 
             for(int i = 0; i<produse.size(); i++){
-                System.out.println("Product number" + i + "is:");
+                System.out.println("Product number " + i + " is:");
                 System.out.println(produse.get(i));
             }
             String input;
@@ -148,7 +148,7 @@ public class Order {
                     System.out.println(menus.get(i));
                 }
 
-                System.out.print("Do you want to add a menu? (yes/no");
+                System.out.print("Do you want to add a menu? (yes/no): ");
                 input = sc.nextLine();
 
                 if(input.equalsIgnoreCase("yes")){

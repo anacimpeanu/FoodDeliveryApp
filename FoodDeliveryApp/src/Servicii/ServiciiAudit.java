@@ -10,7 +10,7 @@ public class ServiciiAudit { //singleton
 
     private ServiciiAudit() {
         try{
-            String path = "C:\\Users\\anaci\\OneDrive\\Desktop\\FoodDeliveryApp\\Files\\Audit.csv";
+            String path = "C:\\Users\\nicol\\Desktop\\Proiect\\Files\\Audit.csv";
 
             //sterge continut dinaintea pornirii programul
             new FileWriter(path, false).close();

@@ -173,9 +173,9 @@ public class ReadCSV {  //singleton
         //apelare metoda de citire a userilor
         ReadUsers();
        //citire restaurante folosind metoda generica
-       this.readCSV("C:\\Users\\anaci\\OneDrive\\Desktop\\FoodDeliveryApp\\Files\\CandyShop.csv", CandyShop.class);
-       this.readCSV("C:\\Users\\anaci\\OneDrive\\Desktop\\FoodDeliveryApp\\Files\\CaffeShop.csv", CaffeShop.class);
-       this.readCSV("C:\\Users\\anaci\\OneDrive\\Desktop\\FoodDeliveryApp\\Files\\Restaurant.csv", Restaurant.class);
+       this.readCSV("C:\\Users\\nicol\\Desktop\\Proiect\\Files\\CandyShop.csv", CandyShop.class);
+       this.readCSV("C:\\Users\\nicol\\Desktop\\Proiect\\Files\\CaffeShop.csv", CaffeShop.class);
+       this.readCSV("C:\\Users\\nicol\\Desktop\\Proiect\\Files\\Restaurant.csv", Restaurant.class);
    }
 
    private void ReadUsers(){
@@ -189,7 +189,7 @@ public class ReadCSV {  //singleton
 
        //citirea din fisier csv
        try{
-           String path = "C:\\Users\\anaci\\OneDrive\\Desktop\\FoodDeliveryApp\\Files\\Users.csv";
+           String path = "C:\\Users\\nicol\\Desktop\\Proiect\\Files\\Users.csv";
            BufferedReader buffer = new BufferedReader (new FileReader(path));
 
            String line = buffer.readLine();
