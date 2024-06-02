@@ -128,7 +128,7 @@ This team of three hardworking girls has successfully developed an innovative fo
 
 <b>Candy</b>: Represents candy items that can be ordered.
 
-<b>>Food</b>: Represents generic food items that are available for order.
+<b>Food</b>: Represents generic food items that are available for order.
 
 <b>Product</b>: Represents individual products that can be ordered, which may include beverages, candy, or other types of food items.
 
