@@ -61,7 +61,8 @@ public class Aplication { //singleton
                 servicii.listOneShop();
             } else if (choice == 7) {
                 servicii.logOff();
-                break;
+                //break;
+                servicii.logIn();
             }
 
 

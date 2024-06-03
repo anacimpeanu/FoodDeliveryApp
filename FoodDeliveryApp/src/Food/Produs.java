@@ -1,6 +1,6 @@
 package Food;
 
-public abstract class Produs {
+public abstract class Produs implements ProdusInterface {
 
     //int id; //pt baza de date
     protected String name;
