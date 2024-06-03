@@ -203,6 +203,6 @@ This singleton class manages user authentication and login functionalities. It e
 </div>
 </details>
 
-### 📽 Video : [FOOD DELIVERY APP 🧁]
+### 📽 Video : [FOOD DELIVERY APP 🧁](https://youtu.be/JCMeC8KmguU)
 ### 🖥 Code : [ The Code 🧁 ](https://github.com/anacimpeanu/FoodDeliveryApp/tree/main/FoodDeliveryApp)
 
